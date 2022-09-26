@@ -1,0 +1,13 @@
+body{
+    margin: 50px;
+    background-color: coral;
+    text-align: center;
+}
+
+button{
+    background: yellowgreen;
+    border: 0px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 20px;
+}

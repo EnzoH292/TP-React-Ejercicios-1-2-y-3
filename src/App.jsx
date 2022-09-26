@@ -1,5 +1,5 @@
 import Saludar from "./Components/Saludar";
-
+import './style.css'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <Saludar myFriend = {saludo} mensajeAdicional={adicional}></Saludar>
+      <Saludar myFriend = {saludo}></Saludar>
     </div>
   );
 }

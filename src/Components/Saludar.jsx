@@ -6,14 +6,9 @@ const Saludar = (props) => {
     const [nuevoMensaje, setNuevoMensaje] = useState(`Hello ${props.myFriend}!!`)
 
     const cambiarMensaje = ()=>{
-        console.log("Cambiando mensaje")
         setNuevoMensaje(`Hello ${props.myFriend} (from changed state)!!`)
     }
-    // const mensajeAdicional = ()=>{
-    //     console.log(props.mensajeAdicional)
-    //     document.write(`<h2>Hello ${props.myFriend} ${props.mensajeAdicional}!!</h2>`)
-    // }
-
+   
 
     return (
         <section>
